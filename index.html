@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "container" id = "block">
+        <div class = "upper">   
+            <h1>Todo List</h1>
+            <button type = "button" value = "click" id = "add" 
+            onclick="block();" aria-placeholder="Add your todos">Add</button>
+        </div>
+        
+        <input type="text" minlength="1" id = "todoInput" autofocus>
+        
+        <div id = "todos"></div>
+        <button class = "dynamic_refresh" id = "cancel">clear</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
