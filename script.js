@@ -67,6 +67,7 @@ document.addEventListener('click', function(e){
             elem.style.display = 'none';
         });
     }
+    
 });
 
 
