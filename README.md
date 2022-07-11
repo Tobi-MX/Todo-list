@@ -1,2 +1,3 @@
-# Todo-list
-Simple todo list with JAVASCRIPT
+# Todo-list App
+
+This is a Simple todo list app with HTML, CSS and JAVASCRIPT
